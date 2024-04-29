@@ -1,6 +1,6 @@
-export default function Feedback({ feedback, totalFeedback }) {
+export default function Feedback({ feedback, positiveFeedback }) {
   const { good, neutral, bad } = feedback;
-  const positiveFeedback = Math.round((good / totalFeedback) * 100);
+  
 
   return (
     <div>

@@ -49,7 +49,7 @@ export default function App() {
       {totalFeedback === 0 ? (
         <Notification />
       ) : (
-        <Feedback feedback={feedback} positiveFeedback={positiveFeedback} />
+        <Feedback feedback={feedback} positiveFeedback={positiveFeedback} totalFeedback={totalFeedback} />
       )}
     </div>
   );
